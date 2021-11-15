@@ -36,7 +36,7 @@ Sunshine Smoothies is an e-commerce application that lets users shop for smoothi
       description: { type: String, required: true },
       ingredients: { type: String, required: true },
       imageURL: { type: String, required: true },
-  }
+    }
   )
 
   const User = new Schema(
