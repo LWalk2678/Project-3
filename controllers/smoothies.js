@@ -14,10 +14,10 @@ export const getSmoothie = async (req, res) => {
   try {
     const { id } = req.params
     const smoothie = await Smoothie.findById(id)
-    if (product) {
-      return res.json(product)
+    if (smoothie) {
+      return res.json(smoothie)
     }
-    res.status(404).json({ message: 'Product not found!' })
+    res.status(404).json({ message: 'Smoothie not found!' })
   } catch (error) {
     console.log(error.message)
     res.status(500).json({ error: error.message })
