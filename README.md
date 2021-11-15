@@ -8,11 +8,25 @@ Julia Dwyer
 Jeff Bailey
 Terra Claycamp
 
-## Project Description 
+## Project Description
 Sunshine Smoothies is an e-commerce application that lets users shop for smoothies, create their own smoothie, and edit smoothies. Smoothies are stored in a database. Users can see the smoothies they create as well as the smoothies created by others. The store also has a default selection of smoothies. If a user is signed in they’ll have the ability to create or edit smoothies.
 
 ## WireFrames
+
+<img src="img/wireframe-home.png" width="960" />
+<img src="img/wireframe-our-smoothies.png" width="960" />
+<img src="img/wireframe-smoothie-detail.png" width="960" />
+<img src="img/wireframe-create-smoothie.png" width="960" />
+<img src="img/wireframe-edit-smoothie.png" width="960" />
+<img src="img/wireframe-sign-in.png" width="960" />
+<img src="img/wireframe-sign-up.png" width="960" />
+<img src="img/wireframe-cart.png" width="960" />
+<img src="img/wireframe-about.png" width="960" />
+
 ## Component Hierarchy
+
+<img src="img/component-hierarchy.png" width="1072" />
+
 ## Schema
   ```
   const Smoothie = new Schema(
@@ -24,7 +38,7 @@ Sunshine Smoothies is an e-commerce application that lets users shop for smoothi
       imageURL: { type: String, required: true },
   }
   )
-  
+
   const User = new Schema(
     {
       name: {type: String, required: true },
