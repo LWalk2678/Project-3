@@ -14,15 +14,15 @@ import SignIn from './screens/SignIn/SignIn'
 import SignOut from './screens/SignOut/SignOut'
 
 const App = () => {
-  // const [user, setUser] = useState(null)
+  const [user, setUser] = useState(null)
 
-  // useEffect(() => {
-  //   const fetchUser = async () => {
-  //     const user = await verifyUser()
-  //     user ? setUser(user) : setUser(null)
-  //   }
-  //   fetchUser()
-  // }, [])
+  useEffect(() => {
+    const fetchUser = async () => {
+      const user = await verifyUser()
+      user ? setUser(user) : setUser(null)
+    }
+    fetchUser()
+  }, [])
 
 
   return (
@@ -45,11 +45,11 @@ const App = () => {
         </Route>
         <Route path="/add-smoothie">
           <SmoothieCreate/>
-          {/* {user ? <SmoothieCreate/> : <Redirect to="/sign-up" />} */}
+          {user ? <SmoothieCreate /> : <Redirect to="/sign-up" />}
         </Route>
         <Route exact path="/smoothies/:id/edit">
           <SmoothieEdit/>
-          {/* {user ? <SmoothieEdit/> : <Redirect to='/' />} */}
+          {user ? <SmoothieEdit /> : <Redirect to='/' />}
         </Route>
         <Route exact path="/smoothies/:id">
           <SmoothieDetail/>
