@@ -1,5 +1,5 @@
 //Terra Claycamp
-//Purpose:
+//Purpose:gets a single smoothieCard
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 import "./SmoothieCard.css";
 import { Link } from "react-router-dom";
