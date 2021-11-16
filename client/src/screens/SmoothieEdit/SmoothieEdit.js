@@ -37,7 +37,7 @@ const SmoothieEdit = (props) => {
     })
   }
 
-  const handleSubmit = (ev) => {
+  const handleSubmit = async (ev) => {
     ev.preventDefault()
     const updated = await updateSmoothie(id, smoothie)
     setUpdated(updated)
