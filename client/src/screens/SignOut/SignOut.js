@@ -1,6 +1,8 @@
+
 import { useEffect } from 'react'
 import { signOut } from '../../services/users'
 import { useHistory } from 'react-router-dom'
+import { Layout } from '../../components'
 
 const SignOut = (props) => {
   const { setUser } = props
