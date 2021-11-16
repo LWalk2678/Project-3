@@ -5,8 +5,8 @@ const authenticationedOptions = (
     <>
         <NavLink className="link" to ="/add-smoothie">Create a Smoothie!</NavLink>
         <NavLink className="link" to ="/sign-out">Sign Out</NavLink>
-    </>    
-    
+    </>
+
 )
 
 const unauthenticatedOptions = (
@@ -25,13 +25,11 @@ const alwaysOptions = (
 const Nav =({ user }) => {
     return(
         <nav>
-            <div className="nav">
-                <NavLink className="logo" to ="/">Sunshine Smoothies</NavLink>
-                <div className="links">
-                    {user && <div className="link-welcome"> Welcome, {user.username}</div>}
-                    {alwaysOptions}
-                    {user ? authenticationedOptions : unauthenticatedOptions}
-                </div>
+            <NavLink className="logo" to ="/">Sunshine Smoothies</NavLink>
+            {user && <div className="link-welcome"> Welcome, {user.username}</div>}
+            <div class="link-pages">
+                {alwaysOptions}
+                {user ? authenticationedOptions : unauthenticatedOptions}
             </div>
         </nav>
     )
