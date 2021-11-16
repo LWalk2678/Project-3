@@ -88,7 +88,7 @@ const SignUp = (props) => {
         <input
           required
           type='password'
-          name='passowrd'
+          name='password'
           value={password}
           placeholder='Password'
           onChange={handleChange}
