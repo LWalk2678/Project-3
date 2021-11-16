@@ -69,9 +69,14 @@ Sunshine Smoothies is an e-commerce application that lets users shop for smoothi
 * User can only edit and delete a smoothie that they have created (using association)
 
 ## Project Schedule
-|Day| Deliverables | Status |
-|Monday| Build out Back End, |Incomplete |
-|Tuesday| Code, Build out FrontEnd , Assign files to each teammate|Incomplete |
-|Wednesday| Code out front end files Independently|Incomplete |
-|Thursday| Code out independently with timed checkins, MVP |Incomplete |
-|Friday| Work on PMVP|Incomplete |
+
+Day | Deliverables | Status
+----|--------------|-------
+Thursday 11/11  | Project idea approval | Complete
+Friday 11/12    | Wireframe, component hierarchy, readme | Complete
+Monday 11/15    | Build out back-end  | Complete
+Tuesday 11/16   | Build out front-end |
+Wednesday 11/17 | Fix front-end issues, start on CSS |
+Thursday 11/18  | CSS |
+Friday 11/19    | Finish CSS, PMVP |
+Monday 11/22    | Presentation |
