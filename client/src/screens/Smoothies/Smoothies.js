@@ -33,7 +33,13 @@ const Smoothies = (props) => {
       <div className='smoothies'>
         {searchResult.map((smoothie, index) => {
           return (
-            <Smoothie />
+            <Smoothie
+              _id={smoothie._id}
+              title={smoothie.title}
+              imgURL={smoothie.imageURL}
+              price={smoothie.price}
+              key={index}
+            />
           )
         })}
       </div>
