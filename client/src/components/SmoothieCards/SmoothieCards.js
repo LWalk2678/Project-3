@@ -1,5 +1,5 @@
 //Terra Claycamp
-//Purpose:
+//Purpose:retrieves all the smoothies on the server and maps all the smoothieCards
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 import { useState, useEffect } from "react";
 import "./SmoothieCards.css";
