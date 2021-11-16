@@ -3,7 +3,7 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 import { useState, useEffect } from "react";
 import "./SmoothieCards.css";
-import SmoothieCard from "../SmoothieCard";
+import SmoothieCard from "../SmoothieCard/SmoothieCard";
 import { getSmoothies } from "../../services/smoothies";
 
 const SmoothieCards = () => {
