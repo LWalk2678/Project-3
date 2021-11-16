@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+import './SmoothieDetail.css'
 
 const SmoothieDetail = (props) => {
   return (
