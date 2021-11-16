@@ -1,9 +1,14 @@
+import '.Home.css';
+import { Layout, SmoothieCards } from '../../components'
+
 
 const Home = (props) => {
   return (
-    <div className='home'>
-        <h1>Home Page</h1>
+    <Layout user={props.user}>
+      <div className='home'>
+        <SmoothieCards />
       </div>
+    </Layout>
   )
 }
 
