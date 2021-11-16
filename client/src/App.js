@@ -47,7 +47,6 @@ const App = () => {
           {user ? <SmoothieCreate user={user} /> : <Redirect to="/sign-up" />}
         </Route>
         <Route exact path="/smoothies/:id/edit">
-          <SmoothieEdit/>
           {user ? <SmoothieEdit user={user} /> : <Redirect to='/' />}
         </Route>
         <Route exact path="/smoothies/:id">
