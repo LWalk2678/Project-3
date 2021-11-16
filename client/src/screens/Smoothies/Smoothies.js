@@ -28,9 +28,16 @@ const Smoothies = (props) => {
   const handleSubmit = (event) => event.preventDefault()
 
   return (
-    <div>
-      <h1>Smoothies Page</h1>
-    </div>
+    <Layout user={props.user}>
+      <Search onSubmit={handleSubmit} handleSearch={handleSearch} />
+      <div className='smoothies'>
+        {searchResult.map((smoothie, index) => {
+          return (
+            <Smoothie />
+          )
+        })}
+      </div>
+    </Layout>
   )
 }
 
