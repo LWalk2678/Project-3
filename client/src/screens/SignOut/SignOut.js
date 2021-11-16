@@ -1,10 +1,13 @@
+import { Layout } from '../../components'
 
 const SignOut = (props) => {
- 
+
   return (
-    <div>
-      <h1>Sign Out Page</h1>
-    </div>
+    <Layout user={props.user}>
+      <div>
+        <h1>Sign Out Page</h1>
+      </div>
+    </Layout>
   )
 }
 
