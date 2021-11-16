@@ -1,5 +1,5 @@
-# Project-3
-An awesome E-commerce app
+# Sunshine Smoothies
+An awesome E-commerce app for a smoothie shop called Sunshine Smoothies.
 
 ## Owlbear Cubs
 Clint Gunter
