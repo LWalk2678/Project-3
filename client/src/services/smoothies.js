@@ -29,7 +29,7 @@ export const createSmoothie = async smoothie => {
 
 export const updateSmoothie = async (id, smoothie) => {
   try {
-      const response = await api.put(`/smoothies/${id}`)
+      const response = await api.put(`/smoothies/${id}`,smoothie)
       return response.data
   } catch (error) {
       throw error
