@@ -36,7 +36,7 @@ const Smoothies = (props) => {
             <Smoothie
               _id={smoothie._id}
               title={smoothie.title}
-              imgURL={smoothie.imageURL}
+              imageURL={smoothie.imageURL}
               price={smoothie.price}
               key={index}
             />

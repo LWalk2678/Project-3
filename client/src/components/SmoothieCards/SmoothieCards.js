@@ -24,7 +24,7 @@ const SmoothieCards = () => {
         <SmoothieCard
           _id={smoothie._id}
           name={smoothie.name}
-          imgURL={smoothie.imgURL}
+          imageURL={smoothie.imgURL}
           key={index}
         />
       ) : null

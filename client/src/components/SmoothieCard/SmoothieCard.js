@@ -10,7 +10,7 @@ const SmoothieCard = (props) => {
       <Link className="card" to={`/smoothies/${props._id}`}>
         <img
           className="smoothie-card-image"
-          src={props.imgURL}
+          src={props.imageURL}
           alt={props.name}
         />
         <div>View</div>
