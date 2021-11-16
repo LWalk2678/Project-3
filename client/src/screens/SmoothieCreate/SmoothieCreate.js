@@ -10,8 +10,9 @@ import { createSmoothie } from "../../services/smoothies";
 
 const SmoothieCreate = (props) => {
   const [smoothie, setSmoothie] = useState({
-    name: "",
+    title: "",
     description: "",
+    ingredients: "",
     imageURL: "",
     price: "",
   });
