@@ -12,17 +12,17 @@ const SmoothieCreate = (props) => {
   const [smoothie, setSmoothie] = useState({
     name: "",
     description: "",
-    imgURL: "",
+    imageURL: "",
     price: "",
   });
 
   const [isCreated, setCreated] = useState(false);
 
   const handleChange = (event) => {
-    const { title, value } = event.target;
+    const { name, value } = event.target;
     setSmoothie({
       ...smoothie,
-      [title]: value,
+      [name]: value,
     });
   };
 
@@ -76,8 +76,8 @@ const SmoothieCreate = (props) => {
         <input
           className="input-image-link"
           placeholder="Image Link"
-          value={smoothie.imgURL}
-          name="imgURL"
+          value={smoothie.imageURL}
+          name="imageURL"
           required
           onChange={handleChange}
         />
