@@ -22,7 +22,7 @@ const Smoothies = (props) => {
       smoothie.name.toLowerCase().includes(event.target.value.toLowerCase())
     )
     setSearchResult(results)
-    setApplySort(true)
+    
   }
 
   const handleSubmit = (event) => event.preventDefault()
