@@ -45,19 +45,11 @@ const App = () => {
         </Route>
         <Route path="/add-smoothie">
           <SmoothieCreate/>
-<<<<<<< HEAD
-          {user ? <SmoothieCreate/> : <Redirect to="/sign-up" />}
-        </Route>
-        <Route exact path="/smoothies/:id/edit">
-          <SmoothieEdit/>
-          {user ? <SmoothieEdit/> : <Redirect to='/' />}
-=======
           {user ? <SmoothieCreate user={user} /> : <Redirect to="/sign-up" />}
         </Route>
         <Route exact path="/smoothies/:id/edit">
           <SmoothieEdit/>
           {user ? <SmoothieEdit user={user} /> : <Redirect to='/' />}
->>>>>>> 7f7f0257fcd333432c0cf7f36578a95e1d9d2824
         </Route>
         <Route exact path="/smoothies/:id">
           <SmoothieDetail user={user} />
