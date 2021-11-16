@@ -20,7 +20,7 @@ export const getSmoothie = async id => {
 
 export const createSmoothie = async smoothie => {
   try {
-      const response = await api.post('/smoothies', product)
+      const response = await api.post('/smoothies', smoothie)
       return response.data
   } catch (error) {
       throw (error)
