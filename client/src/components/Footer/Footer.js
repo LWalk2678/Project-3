@@ -1,13 +1,13 @@
-import React from "react";
+//Terra Claycamp
+//Purpose:Sets up the footer component
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-export default function Footer(props) {
-  return (
-    <div className="footer">
-      <p>
-        We were talking about Norway, Sweden and Finland etc, and I mentioned
-        that I knew a Norwegian girl called Hedda. Girlfriend promptly replies
-        with 'funny, I know a guy from there called "footer"'.
-      </p>
-    </div>
-  );
-}
+
+import "./Footer.css";
+
+const Footer = () => <footer>>&copy; Sunshine Smoothies</footer>;
+
+export default Footer;
+
+
+
