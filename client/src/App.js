@@ -14,45 +14,45 @@ import SignIn from './screens/SignIn/SignIn'
 import SignOut from './screens/SignOut/SignOut'
 
 const App = () => {
-  // const [user, setUser] = useState(null)
+  const [user, setUser] = useState(null)
 
-  // useEffect(() => {
-  //   const fetchUser = async () => {
-  //     const user = await verifyUser()
-  //     user ? setUser(user) : setUser(null)
-  //   }
-  //   fetchUser()
-  // }, [])
+  useEffect(() => {
+    const fetchUser = async () => {
+      const user = await verifyUser()
+      user ? setUser(user) : setUser(null)
+    }
+    fetchUser()
+  }, [])
 
 
   return (
     <div className="App">
       <Switch>
         <Route exact path="/">
-          <Home/>
+          <Home user={user} />
         </Route>
         <Route path="/sign-up">
-          <SignUp/>
+          <SignUp setUser={setUser} />
         </Route>
         <Route path="/sign-in">
-          <SignIn/>
+          <SignIn setUser={setUser} />
         </Route>
         <Route path="/sign-out">
-          <SignOut/>
+          <SignOut setUser={setUser} />
         </Route>
         <Route exact path="/smoothies">
-          <Smoothies/>
+          <Smoothies user={user} />
         </Route>
         <Route path="/add-smoothie">
           <SmoothieCreate/>
-          {/* {user ? <SmoothieCreate/> : <Redirect to="/sign-up" />} */}
+          {user ? <SmoothieCreate user={user} /> : <Redirect to="/sign-up" />}
         </Route>
         <Route exact path="/smoothies/:id/edit">
           <SmoothieEdit/>
-          {/* {user ? <SmoothieEdit/> : <Redirect to='/' />} */}
+          {user ? <SmoothieEdit user={user} /> : <Redirect to='/' />}
         </Route>
         <Route exact path="/smoothies/:id">
-          <SmoothieDetail/>
+          <SmoothieDetail user={user} />
         </Route>
       </Switch>
     </div>
