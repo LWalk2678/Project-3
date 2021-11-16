@@ -1,3 +1,12 @@
+
+
+
+
+const SignIn = (props) => {
+
+  return (
+    <div>
+        <h1>Sign In Page: Rename Test</h1>
 import { useState } from 'react';
 import './SignIn.css'
 import { signIn } from '../../services/users'
