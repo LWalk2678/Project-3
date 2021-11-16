@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './Smoothies.css'
 
-import { Layout, Product, Search } from '../../components'
+import { Layout, Smoothie, Search } from '../../components'
 import { getSmoothies } from '../../services/smoothies'
 
 const Smoothies = (props) => {
