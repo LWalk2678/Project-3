@@ -7,14 +7,14 @@ import { useParams, Link } from 'react-router-dom'
 
 
 const SmoothieDetail = (props) => {
-  const [smoothie, setSmoothe] = useState(null)
+  const [smoothie, setSmoothie] = useState(null)
   const [isLoaded, setLoaded] = useState(false)
   const { id } = useParams()
 
   useEffect(() => {
     const fetchSmoothie = async () => {
       const smoothie = await getSmoothie(id)
-      setSmoothe(smoothie)
+      setSmoothie(smoothie)
       setLoaded(true)
     }
     fetchSmoothie()
