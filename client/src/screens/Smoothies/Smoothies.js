@@ -19,7 +19,7 @@ const Smoothies = (props) => {
 
   const handleSearch = (event) => {
     const results = smoothies.filter((smoothie) =>
-      smoothie.name.toLowerCase().includes(event.target.value.toLowerCase())
+      smoothie.title.toLowerCase().includes(event.target.value.toLowerCase())
     )
     setSearchResult(results)
     
