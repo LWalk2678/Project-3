@@ -30,6 +30,34 @@ const insertData = async () => {
       ingredients: 'peanut butter, strawberry jelly, banana, milk',
       imageURL: '../img/smoothie-pbj-blast.jpg',
     },
+    {
+      title: 'Chunky Monkey',
+      price: '7.99',
+      description: 'Decadent chocolate peanut-buttery goodness.',
+      ingredients: 'banana, peanut butter, cocoa powder, almond milk',
+      imageURL: '../img/smoothie-chunky-monkey.jpeg',
+    },
+    {
+      title: 'Tropical Sunrise',
+      price: '8.99',
+      description: 'A mood lifting blast of fresh fruity flavors to leave you energized and ready for anything',
+      ingredients: 'banana, pineapple, mango, strawberry, orange juice, coconut water, papaya, coconut flakes',
+      imageURL: '../img/smoothie-tropical-sunrise.jpeg',
+    },    
+    {
+      title: 'Green Machine',
+      price: '9.99',
+      description: 'A nourishing elixir sure to leave you energized, refreshed and feeling like a superhero',
+      ingredients: 'pineapple juice, spinach, green apple, kale, celery, mango, pineapple',
+      imageURL: '../img/smoothie-green-machine.jpeg',
+    },    
+    {
+      title: 'Purple Jazz',
+      price: '8.77',
+      description: 'Smooth with a bite. This fun purple mix is perfect for a refined pallete looking for news flavors',
+      ingredients: 'medjool dates, coconut water, cashews, blueberries, greek yogurt, lime juice, pinch of salt',
+      imageURL: '../img/smoothie-purple-jazz.jpeg',
+    },
   ]
 
   // insert products into database
