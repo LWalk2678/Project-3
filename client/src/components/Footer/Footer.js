@@ -4,11 +4,9 @@
 
 import "./Footer.css";
 
-const footerText = 'you glad to be here'
-
-const Footer = () => <footer>
-  <span role="img" aria-label="orange" className="logo">🍊  </span>
-  {footerText}
-</footer>;
+const Footer = () =>
+  <footer>
+    🍊 you glad to be here?
+  </footer>;
 
 export default Footer;
