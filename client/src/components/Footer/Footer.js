@@ -8,7 +8,6 @@ const footerText = 'you glad to be here'
 
 const Footer = () => <footer>
   <span role="img" aria-label="orange" className="logo">🍊  </span>
-  <span> </span>
   {footerText}
 </footer>;
 
