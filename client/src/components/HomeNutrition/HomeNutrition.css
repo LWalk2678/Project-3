@@ -1,0 +1,28 @@
+.health-benefits {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+    
+    
+}
+.nutrition-images {
+    height: 200px;
+    width: 250px;
+
+}
+.facts {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+
+}
+.nutrition-title {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.home-nutrition {
+    background-color: #ffe14c;
+    width: 100%;
+}

@@ -4,6 +4,11 @@
 
 import "./Footer.css";
 
-const Footer = () => <footer>&copy; Sunshine Smoothies</footer>;
+const footerText = 'you glad to be here'
+
+const Footer = () => <footer>
+  <span role="img" aria-label="orange" className="logo">🍊  </span>
+  {footerText}
+</footer>;
 
 export default Footer;
