@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Rosario:wght@300&family=Sacramento&display=swap");
 
 nav {
-  background: #ff6480;
-  display: flex;
-  position: fixed;
+  background: #ff6480;  
   width: 100%;
-  padding: 20px 0;
-  margin-top: -2px;
   box-shadow: 1px 1px 1px 0.3px #cecece;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 20px;
+
 }
+
+
 
 .logo {
   font-family: "Sacramento", cursive;
@@ -63,3 +66,8 @@ a {
     padding: 3px;
   }
 }
+
+
+
+
+  
