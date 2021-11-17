@@ -17,6 +17,7 @@
 
 .smoothie-card-image {
     width: 300px;
+    border-radius: 20px;
 }
 
 .smoothie-card a {
@@ -36,5 +37,6 @@
         width: 180px;
         padding: 10px;
         margin: 4px;
+        border-radius: 20px;
     }
 }
