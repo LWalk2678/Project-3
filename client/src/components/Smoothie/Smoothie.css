@@ -16,6 +16,7 @@
 
 .smoothie-image {
     width: 300px;
+    border-radius: 20px;
 }
 
 .smoothie-title {
@@ -37,5 +38,6 @@
         width: 180px;
         margin: 15px;
         padding: 10px;
+        border-radius: 20px;
     }
 }

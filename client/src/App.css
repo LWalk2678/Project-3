@@ -23,28 +23,6 @@ a {
   background: darkorange;
 }
 
-/* Nav ---------------------------------------------------------------------- */
-
-nav {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  padding: 20px;
-  border-bottom: 1px solid darkgray;
-  background: #eeeeee;
-}
-/* Nav child 1/3 */
-.logo {
-  margin-right: 10px;
-}
-/* Nav child 2/3 */
-.link-welcome {
-  flex-grow: 2; /* expand to fill entire middle of nav */
-}
-/* Nav child 3/3 */
-.link-pages > * {
-  margin-left: 10px;
-}
 
 /* Main --------------------------------------------------------------------- */
 
