@@ -4,7 +4,7 @@ import "./HomeBanner.css";
 const HomeBanner = () => {
     return (
         <div className='home-banner'>
-            <h1>Smoothies to brighten your day</h1>
+            <h1>Smoothies to<br/>brighten your day</h1>
             <button>View Smoothies</button>
         </div>
     )
