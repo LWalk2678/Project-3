@@ -12,6 +12,7 @@
 .nutrition-images {
     height: 150px;
     width: 200px;
+    border-radius: 15px;
 
 }
 .facts {
@@ -26,6 +27,7 @@
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
+    color: #FA6480;
 }
 .home-nutrition {
     background-color: #FDF494;
@@ -35,4 +37,8 @@
 .health-image-title {
     padding-left: 10px;
     font-family: "Shrikhand", cursive;
+    color: #FA6480;
+}
+.health-benefits ul {
+    font-family: 'Rosario', sans-serif;
 }
