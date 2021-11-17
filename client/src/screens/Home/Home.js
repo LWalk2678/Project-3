@@ -1,12 +1,13 @@
 import './Home.css';
-import { Layout, SmoothieCards } from '../../components'
+import Layout from '../../components/Layout/Layout'
+import HomeQuote from '../../components/HomeQuote/HomeQuote'
 
 
 const Home = (props) => {
   return (
     <Layout user={props.user}>
       <div className='home'>
-        <SmoothieCards />
+        <HomeQuote />
       </div>
     </Layout>
   )
