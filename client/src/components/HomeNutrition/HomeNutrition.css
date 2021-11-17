@@ -1,14 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+
 .health-benefits {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex: 50%;
-    
+    padding-bottom: 20px;
     
 }
 .nutrition-images {
-    height: 200px;
-    width: 250px;
+    height: 150px;
+    width: 200px;
 
 }
 .facts {
@@ -18,11 +21,18 @@
 
 }
 .nutrition-title {
+    font-family: "Shrikhand", cursive;
     display: block;
     margin: auto;
     text-align: center;
+    padding-bottom: 20px;
 }
 .home-nutrition {
-    background-color: #ffe14c;
+    background-color: #FDF494;
+    background: cover;
     width: 100%;
+}
+.health-image-title {
+    padding-left: 10px;
+    font-family: "Shrikhand", cursive;
 }
