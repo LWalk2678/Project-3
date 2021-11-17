@@ -3,13 +3,13 @@ import "./HomeQuote.css"
 const HomeQuote = (props) => {
 
   return (
-    <section class="home-quote">
-      <div class="quote">
+    <section className="home-quote">
+      <div className="quote">
         <p><em>{props.quote}</em></p>
       </div>
       { props.img ?
-        <div class="image">
-          <img src={props.img} alt='quote'/>
+        <div className="image">
+          <img src={props.img} />
         </div>
       : '' }
     </section>
