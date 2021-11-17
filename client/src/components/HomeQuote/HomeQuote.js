@@ -1,8 +1,14 @@
 import "./HomeQuote.css"
 
-const HomeQuote = () => {
-  return(
-    <p>Here is a quote!</p>
+const HomeQuote = (props) => {
+
+  return (
+    <section class="home-quote">
+      <p>{props.quote}</p>
+      { props.img ?
+        <img src={props.img} />
+      : '' }
+    </section>
   )
 }
 
