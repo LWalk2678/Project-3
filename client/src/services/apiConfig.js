@@ -6,7 +6,7 @@ const getToken = () => {
   })
 }
 const api = axios.create({
-  baseURL: process.env.NODE_ENV === 'production' ? 'https://https://sunshine-smoothies.herokuapp.com/api' : 'http://localhost:3000/api'
+  baseURL: process.env.NODE_ENV === 'production' ? 'https://sunshine-smoothies.herokuapp.com/api' : 'http://localhost:3000/api'
 })
 
 api.interceptors.request.use(async function (config) {
