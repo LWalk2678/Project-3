@@ -5,7 +5,7 @@ const HomeBanner = () => {
     return (
         <div className='home-banner'>
             <h1>Smoothies to<br/>brighten your day</h1>
-            <button>View Smoothies</button>
+            <button><Link className='link' to="/smoothies">View Smoothies</Link></button>
         </div>
     )
 }
