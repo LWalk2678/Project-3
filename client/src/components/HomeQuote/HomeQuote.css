@@ -1,0 +1,22 @@
+.home-quote {
+  display: flex;
+  flex-basis: row nowrap;
+  border: 1px dashed red;
+}
+.home-quote .quote {
+  flex-grow: 2;
+  display: flex;
+  flex-basis: row nowrap;
+  align-items: center;
+}
+.home-quote p {
+  width: 100%;
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+.home-quote img {
+  display: block;
+  width: 320px;
+  height: auto;
+}
