@@ -4,9 +4,13 @@ const HomeQuote = (props) => {
 
   return (
     <section class="home-quote">
-      <p>{props.quote}</p>
+      <div class="quote">
+        <p><em>{props.quote}</em></p>
+      </div>
       { props.img ?
-        <img src={props.img} />
+        <div class="image">
+          <img src={props.img} />
+        </div>
       : '' }
     </section>
   )
