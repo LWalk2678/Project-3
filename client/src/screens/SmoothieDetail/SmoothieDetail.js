@@ -44,11 +44,11 @@ const SmoothieDetail = (props) => {
             <Link className='edit-button' to={`/smoothies/${smoothie._id}/edit`}>
               Edit
             </Link>
-            <button 
+            <Link to="/smoothies"
               className='delete-button'
               onClick={() => deleteSmoothie(smoothie._id)}>
               Delete
-            </button>
+            </Link>
           </div>  
         </div>
         
