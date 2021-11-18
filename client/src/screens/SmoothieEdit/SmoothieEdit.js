@@ -53,7 +53,7 @@ const SmoothieEdit = (props) => {
         <div className='image-container'>
           <img
             className='edit-smoothie-image'
-            src={smoothie.imageURL}
+            src={`../${smoothie.imageURL}`}
             alt={smoothie.title}
           />
           <form onSubmit={handleSubmit}>
