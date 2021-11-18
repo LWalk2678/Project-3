@@ -20,7 +20,7 @@ const alwaysOptions = (
     <>
     <NavLink className="link" to ="/smoothies">Smoothies</NavLink>
     <NavLink className="link" to ="/aboutUs">
-        AboutUs
+        Meet the Team
     </NavLink>
     </>
 )
