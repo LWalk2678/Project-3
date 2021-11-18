@@ -52,8 +52,8 @@ const App = () => {
         <Route exact path="/smoothies/:id">
           <SmoothieDetail user={user} />
         </Route>
-        <Route exact path="/AboutUs">
-          <AboutUs />
+        <Route path="/AboutUs">
+          <AboutUs user={user}/>
         </Route>
       </Switch>
     </div>

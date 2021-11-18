@@ -46,9 +46,9 @@ const Team = (
 )
 
 
-const AboutUs = () => {
+const AboutUs = (props) => {
     return(
-        <Layout>
+        <Layout user={props.user}>
             <div>
                 <h1 className="about-us-title">Meet the Team</h1>
             {Team}
