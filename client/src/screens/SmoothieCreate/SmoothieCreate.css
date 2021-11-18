@@ -34,13 +34,13 @@ input {
     border-width: 1px;
     border-style: solid;
     border-color: rgb(197, 197, 197);
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 textarea {
     border-style: solid;
     border-color: rgb(197, 197, 197);
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 .blender {
