@@ -1,7 +1,9 @@
 .smoothie-cards {
-    width: 90vw;
+    width: 50vw;
     padding: 50px;
     margin: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
 .cards {

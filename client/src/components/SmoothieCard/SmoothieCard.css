@@ -4,7 +4,7 @@
 
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     transition: 250ms all;
 }
@@ -16,7 +16,7 @@
 
 
 .smoothie-card-image {
-    width: 300px;
+    width: 150px;
     border-radius: 20px;
 }
 
