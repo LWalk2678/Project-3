@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap');
+
+
+.create-container {
+    display: flex;
+    column-gap: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    /* padding-top: 100px; */
+    align-content: center;
+    justify-content: center;
+}
+
+label {
+    font-family: 'Rosario', sans-serif;
+}
+
+::placeholder {
+    font-family: 'Rosario', sans-serif;
+}
+
+.create-form h1 {
+    color: #286C73;
+    text-shadow: none;
+    font-size: 30px;
+
+}
+
+input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    border-radius: 25px;
+}
+
+textarea {
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    border-radius: 25px;
+}
+
+.blender {
+    width: 50vw;
+}

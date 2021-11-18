@@ -7,6 +7,7 @@ import "./SmoothieCreate.css";
 import { Layout } from "../../components";
 import { Redirect } from "react-router-dom";
 import { createSmoothie } from "../../services/smoothies";
+import "./SmoothieCreate.css";
 
 const SmoothieCreate = (props) => {
   const [smoothie, setSmoothie] = useState({
@@ -38,16 +39,21 @@ const SmoothieCreate = (props) => {
   }
   return (
     <Layout user={props.user}>
+      <div className='create-container'>
+      <img className="blender" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTZiobP8V41RlokB4oHGzlOKye7_W78zQb-dRryis6uSe2YOBI" alt='empty blender'/>
       <form className="create-form" onSubmit={handleSubmit}>
+        <h1>Create Your Own Smoothie!</h1>
+        <label>Smoothie Title:</label>
         <input
           className="input-title"
-          placeholder="Name"
+          placeholder="Name your Smoothie"
           value={smoothie.title}
           name="title"
           required
           autoFocus
           onChange={handleChange}
         />
+        <label>Price:</label>
         <input
           className="input-price"
           placeholder="Price"
@@ -56,27 +62,30 @@ const SmoothieCreate = (props) => {
           required
           onChange={handleChange}
         />
+        <label>Description:</label>
         <textarea
           className="textarea-description"
-          rows={10}
+          rows={4}
           placeholder="Description"
           value={smoothie.description}
           name="description"
           required
           onChange={handleChange}
         />
+        <label>Ingredients:</label>
         <textarea
           className="textarea-ingredients"
-          rows={10}
-          placeholder="Ingredients"
+          rows={4}
+          placeholder="Type each ingredient separated by a comma."
           value={smoothie.ingredients}
           name="ingredients"
           required
           onChange={handleChange}
         />
+        <label>URL:</label>
         <input
           className="input-image-link"
-          placeholder="Image Link"
+          placeholder="Paste your image link here"
           value={smoothie.imageURL}
           name="imageURL"
           required
@@ -86,6 +95,8 @@ const SmoothieCreate = (props) => {
           Submit
         </button>
       </form>
+      </div>
+      
     </Layout>
   );
 };
