@@ -5,6 +5,7 @@ import HomeBanner from '../../components/HomeBanner/HomeBanner.js'
 import HomeNutrition from '../../components/HomeNutrition/HomeNutrition';
 
 
+
 const Home = (props) => {
   return (
     <Layout user={props.user}>
