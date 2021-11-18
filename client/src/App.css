@@ -1,8 +1,17 @@
+/* Variables: Colors -------------------------------------------------------- */
+
+:root {
+  --grapefruit: #ff6480;
+  --mint:       #eaffe8;
+  --banana:     #fff494;
+  --kale:       #286c73;
+}
+
 /* App ---------------------------------------------------------------------- */
 
 body {
   background-color: #eeeeee;
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  font-family: 'Rosario', 'Helvetica', 'Arial', sans-serif;
   color: #333333;
   margin-top: 0;
   margin-right: 0;
@@ -17,25 +26,14 @@ hr {
   background-color: #333333;
 }
 a {
-  color: darkorange;
+  color: var(--grapefruit);
 }
 /* Highlight color */
 ::selection {
   color: white;
-  background: darkorange;
+  background: var(--grapefruit);
 }
-
-
-/* Main --------------------------------------------------------------------- */
-
 main {
   padding: 0px;
   background-color: white;
-}
-
-/* Footer ------------------------------------------------------------------- */
-
-footer {
-  border-top: 1px solid darkgray;
-  text-align: center;
 }
