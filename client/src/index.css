@@ -1,11 +1,1 @@
-/* Sacramento font 
-title font*/
-/* font-family: 'Sacramento', cursive; */
-
-/* Shrikhand
-header fonts  */
-/* font-family: 'Shrikhand', cursive; */
-/* 
-Rosario
-Paragraph font */
-/* font-family: 'Rosario', sans-serif; */
+@import-normalize; /* Load CSS reset before rest of CSS */
