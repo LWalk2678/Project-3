@@ -2,7 +2,7 @@
 
 body {
   background-color: #eeeeee;
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  font-family: 'Rosario', 'Helvetica', 'Arial', sans-serif;
   color: #333333;
   margin-top: 0;
   margin-right: 0;
@@ -24,18 +24,7 @@ a {
   color: white;
   background: darkorange;
 }
-
-
-/* Main --------------------------------------------------------------------- */
-
 main {
   padding: 0px;
   background-color: white;
-}
-
-/* Footer ------------------------------------------------------------------- */
-
-footer {
-  border-top: 1px solid darkgray;
-  text-align: center;
 }

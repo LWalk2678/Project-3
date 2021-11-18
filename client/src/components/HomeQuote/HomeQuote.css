@@ -1,7 +1,6 @@
 .home-quote {
   display: flex;
   flex-basis: row nowrap;
-  border: 1px dashed red;
 }
 .home-quote .quote {
   flex-grow: 2;

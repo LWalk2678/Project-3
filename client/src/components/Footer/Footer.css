@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-
 footer {
   background-color: white;
   font-family: "Shrikhand", cursive;
@@ -7,4 +5,5 @@ footer {
   align-items: center;
   flex: 1;
   padding: 20px;
+  text-align: center;
 }
