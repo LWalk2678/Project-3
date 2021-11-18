@@ -1,0 +1,51 @@
+.home-smoothie {
+    background-color: var(--mint);
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.home-smoothie h1 {
+    color: var(--kale);
+    font-family: Shrikhand;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.home-smoothie h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--kale);
+    margin-top: 50px;
+}
+
+img {
+    width: 160px;
+    border-radius: 10px;
+}
+
+.home-smoothie-container {
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    column-gap: 100px;
+}
+
+button a {
+    color: var(--grapefruit)
+}
+
+.quote-button-container {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.highlight-container h1 {
+    color: var(--grapefruit);
+}
+
