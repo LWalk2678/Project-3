@@ -1,11 +1,11 @@
 .home-quote {
   display: flex;
-  flex-basis: row nowrap;
+  flex-flow: row nowrap;
 }
 .home-quote .quote {
   flex-grow: 2;
   display: flex;
-  flex-basis: row nowrap;
+  flex-flow: row nowrap;
   align-items: center;
 }
 .home-quote p {
@@ -14,8 +14,25 @@
   font-size: 24px;
   text-align: center;
 }
+.home-quote .quote-image {
+    padding: 20px 10%;
+  }
 .home-quote img {
   display: block;
   width: 320px;
   height: auto;
+}
+
+@media screen and (max-width: 680px) {
+  .home-quote {
+    flex-flow: column nowrap;
+  }
+  .home-quote .quote-image {
+    padding: 0 20px 20px 20px;
+  }
+  .home-quote img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
 }
