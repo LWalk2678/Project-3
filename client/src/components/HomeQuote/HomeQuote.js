@@ -9,7 +9,7 @@ const HomeQuote = (props) => {
       </div>
       { props.img ?
         <div className="image">
-          <img src={props.img} alt="fruit quote" />
+          <img src={props.img} alt='quote'/>
         </div>
       : '' }
     </section>
