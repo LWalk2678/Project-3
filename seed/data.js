@@ -21,14 +21,14 @@ const insertData = async () => {
       price: '7.99',
       description: 'The classic original smoothie',
       ingredients: 'strawberries, bananas, yogurt, orange juice, honey',
-      imageURL: '../img/smoothie-strawberry-banana.jpg',
+      imageURL: '../img/smoothie-strawberry-banana.jpeg',
     },
     {
       title: 'PB&J Blast',
       price: '9.99',
       description: 'Your childhood in a smoothie. The taste will bring back memories and leave you refreshed.',
       ingredients: 'peanut butter, strawberry jelly, banana, milk',
-      imageURL: '../img/smoothie-pbj-blast.jpg',
+      imageURL: '../img/smoothie-pbj-blast.jpeg',
     },
     {
       title: 'Chunky Monkey',
