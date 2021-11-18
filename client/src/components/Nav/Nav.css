@@ -1,14 +1,10 @@
 nav {
   background: #ff6480;
-  width: 100%;
   box-shadow: 1px 1px 1px 0.3px #cecece;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 20px;
-  margin-left: -2px;
-  margin-right: -2px;
-  margin-top: -2px;
   color: #fff494;
 }
 
