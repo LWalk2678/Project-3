@@ -1,0 +1,19 @@
+.search-form {
+  padding-top: 50px;
+}
+
+.search-input {
+  width: 80vw;
+  font-family: "Rosario", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1px;
+  padding: 10px 40px 10px 20px;
+  border: 1px solid #ddd;
+  margin: 40px;
+}
+
+@media (max-width: 600px) {
+  .search-input {
+    width: 70vw;
+  }
+}
