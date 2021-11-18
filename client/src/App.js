@@ -7,7 +7,7 @@ import Smoothies from './screens/Smoothies/Smoothies'
 import SmoothieCreate from './screens/SmoothieCreate/SmoothieCreate'
 import SmoothieEdit from './screens/SmoothieEdit/SmoothieEdit'
 import SmoothieDetail from './screens/SmoothieDetail/SmoothieDetail'
-
+import AboutUs from './screens/AboutUs/AboutUs'
 import { verifyUser } from './services/users'
 import SignUp from './screens/SignUp/SignUp'
 import SignIn from './screens/SignIn/SignIn'
@@ -51,6 +51,9 @@ const App = () => {
         </Route>
         <Route exact path="/smoothies/:id">
           <SmoothieDetail user={user} />
+        </Route>
+        <Route exact path="/AboutUs">
+          <AboutUs />
         </Route>
       </Switch>
     </div>
