@@ -26,12 +26,12 @@ hr {
   background-color: #333333;
 }
 a {
-  color: darkorange;
+  color: var(--grapefruit);
 }
 /* Highlight color */
 ::selection {
   color: white;
-  background: darkorange;
+  background: var(--grapefruit);
 }
 main {
   padding: 0px;
