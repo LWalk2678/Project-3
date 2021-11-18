@@ -50,8 +50,8 @@ const AboutUs = () => {
     return(
         <Layout>
             <div>
-                <h1>Meet the Team</h1>
-            {   Team}
+                <h1 className="about-us-title">Meet the Team</h1>
+            {Team}
             </div>
         </Layout>
     )
