@@ -25,6 +25,7 @@
     text-align: center;
     padding-bottom: 20px;
     color: #FA6480;
+    
 }
 .home-nutrition {
     background-color: #FDF494;
@@ -35,9 +36,17 @@
     padding-left: 10px;
     font-family: "Shrikhand", cursive;
     color: #FA6480;
+    text-align: center;
 }
 .health-benefits ul {
     font-family: 'Rosario', sans-serif;
     color: #286C73;
+}
+@media screen and (max-width: 400px) {
+.health-benefits {
+    display: flex;
+    flex-direction: column;
+}
+
 }
 
