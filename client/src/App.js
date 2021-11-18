@@ -53,7 +53,7 @@ const App = () => {
           <SmoothieDetail user={user} />
         </Route>
         <Route exact path="/AboutUs">
-          <AboutUs />
+          <AboutUs user={user}/>
         </Route>
       </Switch>
     </div>
