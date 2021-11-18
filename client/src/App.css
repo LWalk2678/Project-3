@@ -22,18 +22,7 @@ a {
   color: white;
   background: darkorange;
 }
-
-
-/* Main --------------------------------------------------------------------- */
-
 main {
   padding: 0px;
   background-color: white;
-}
-
-/* Footer ------------------------------------------------------------------- */
-
-footer {
-  border-top: 1px solid darkgray;
-  text-align: center;
 }
