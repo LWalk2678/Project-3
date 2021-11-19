@@ -26,35 +26,18 @@ a {
 }
 
 /* User Welcome Section */
-.link-welcome {
-    font-style: italic;
-  }
+.link-welcome span {
+  display: block;
+  font-style: italic;
+}
 
+/* Page Links Section */
 .link-pages {
-  flex: 2;
-  max-width: 50vw;
-  align-items: center;
-  font-size: 18px;
   display: flex;
   margin-right: 5px;
+  font-size: 18px;
 }
 
 @media (max-width: 500px) {
-  nav {
-    width: 98%;
-  }
-  .logo {
-    min-width: 150px;
-    max-width: 50%;
-  }
-  .link-pages {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 50vw;
-  }
-  .link {
-    padding: 3px;
-  }
+
 }

@@ -31,7 +31,9 @@ const Nav =({ user }) => {
             <div className="link-logo">
                 <NavLink to ="/">Sunshine Smoothies</NavLink>
             </div>
-            {user && <div className="link-welcome"> Welcome, {user.username}</div>}
+            {user && <div className="link-welcome">
+                <span>Welcome, {user.username}</span>
+            </div>}
             <div className="link-pages">
                 {alwaysOptions}
                 {user ? authenticationedOptions : unauthenticatedOptions}
