@@ -23,8 +23,10 @@
     display: block;
     margin: auto;
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px;
     color: #FA6480;
+    font-size: 33px;
     
 }
 .home-nutrition {
