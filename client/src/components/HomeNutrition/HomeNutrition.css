@@ -50,13 +50,14 @@
     color: var(--kale);
     font-size: 20px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
 .health-benefits {
     display: flex;
     flex-direction: column;
 }
 .nutrition-title h2 {
     font-size: 30px;
+    padding-left: 20px;
 }
 .nutrition-title h3 {
     font-size: 15px;
