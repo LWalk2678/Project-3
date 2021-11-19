@@ -39,3 +39,14 @@
   padding: 2px;
   border-radius: 10px;
 }
+
+.save-button:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+.save-button:active {
+  background-color: #ddffd9;
+  box-shadow: 0 2px rgb(199, 199, 199);
+  color: var(--kale);
+  transform: translateY(1px);
+}
