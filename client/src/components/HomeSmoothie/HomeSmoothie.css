@@ -79,22 +79,4 @@ button a {
     .quote-button-container h3 {
         margin-top: 5px;
     }
-
-
-
-
-
-
-
-    .home-quote {
-        flex-flow: column nowrap;
-    }
-    .home-quote .quote-image {
-        padding: 0 20px 20px 20px;
-    }
-    .home-quote img {
-        width: 100%;
-        max-width: 320px;
-        margin: 0 auto;
-    }
 }
