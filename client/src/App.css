@@ -47,6 +47,10 @@ input {
   font-size: 16px;
   width: 275px;
   margin-bottom: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(197, 197, 197);
+  border-radius: 5px;
 }
 
 textarea {
@@ -55,4 +59,7 @@ textarea {
   width: 275px;
   vertical-align: top;
   margin-bottom: 10px;
+  border-style: solid;
+  border-color: rgb(197, 197, 197);
+  border-radius: 5px;
 }
