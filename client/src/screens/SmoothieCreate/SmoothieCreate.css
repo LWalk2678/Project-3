@@ -35,7 +35,6 @@ form {
   font-size: 20px;
   text-align: center;
   width: 100px;
-  margin-top: 40px;
   background-color: #286c73;
   color: #ddffd9;
   border: none;
@@ -62,3 +61,4 @@ form {
     height: 233px;
   }
 }
+
