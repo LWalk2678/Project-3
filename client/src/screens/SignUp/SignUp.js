@@ -68,42 +68,48 @@ const SignUp = (props) => {
       <div className='form-container'>
         <h3>Sign Up</h3>
         <form onSubmit={onSignUp}>
-          <label>Username: </label>
-          <input
-            required
-            type='text'
-            name='username'
-            value={username}
-            placeholder='enter username'
-            onChange={handleChange}
-          />
-          <label>Email address: </label>
-          <input
-            required
-            type='email'
-            name='email'
-            value={email}
-            placeholder='enter email'
-            onChange={handleChange}
-          />
-          <label>Password: </label>
-          <input
-            required
-            type='password'
-            name='password'
-            value={password}
-            placeholder='password'
-            onChange={handleChange}
-          />
-          <label>Password Confirmation: </label>
-          <input
-            required
-            name='passwordConfirmation'
-            value={passwordConfirmation}
-            type='password'
-            placeholder='confirm Password'
-            onChange={handleChange}
-          />
+          <div className='inputs'>
+            <div className='label-input'>
+            <label>Username: </label>
+              <input
+                required
+                type='text'
+                name='username'
+                value={username}
+                onChange={handleChange}
+              />
+            </div>
+            <div className='label-input'>
+              <label>Email address: </label>
+              <input
+                required
+                type='email'
+                name='email'
+                value={email}
+                onChange={handleChange}
+              />
+            </div>
+            <div className='label-input'>
+              <label>Password: </label>
+              <input
+                required
+                type='password'
+                name='password'
+                value={password}
+                onChange={handleChange}
+              />
+            </div>
+            <div className='label-input'>
+              <label>Password Confirmation: </label>
+              <input
+                required
+                name='passwordConfirmation'
+                value={passwordConfirmation}
+                type='password'
+                onChange={handleChange}
+              />
+            </div>
+          </div>         
           {renderError()}
         </form>
       </div>
