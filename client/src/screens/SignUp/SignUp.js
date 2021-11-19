@@ -70,7 +70,7 @@ const SignUp = (props) => {
         <form onSubmit={onSignUp}>
           <div className='inputs'>
             <div className='label-input'>
-            <label>Username: </label>
+              <label>Username: </label>
               <input
                 required
                 type='text'
