@@ -28,7 +28,9 @@ const alwaysOptions = (
 const Nav =({ user }) => {
     return(
         <nav>
-            <NavLink className="logo" to ="/">Sunshine Smoothies</NavLink>
+            <div className="link-logo">
+                <NavLink to ="/">Sunshine Smoothies</NavLink>
+            </div>
             {user && <div className="link-welcome"> Welcome, {user.username}</div>}
             <div className="link-pages">
                 {alwaysOptions}

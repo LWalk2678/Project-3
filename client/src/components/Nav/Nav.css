@@ -8,16 +8,17 @@ nav {
   color: #fff494;
 }
 
-.logo {
-  font-family: "Sacramento", cursive;
-  text-align: left;
-  font-size: 34px;
-  flex: 1;
+/* Logo Section */
+.link-logo a {
+  display: block;
   min-width: 250px;
+  font-family: "Sacramento", cursive;
+  font-size: 34px;
+  text-align: left;
+  transition: transform 0.1s ease-out;
 }
-
-.logo:hover {
-  transform: scale(1.014);
+.link-logo a:hover {
+  transform: scale(1.05);
 }
 
 .link-pages {
