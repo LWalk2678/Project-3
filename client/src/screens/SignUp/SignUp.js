@@ -68,40 +68,40 @@ const SignUp = (props) => {
       <div className='form-container'>
         <h3>Sign Up</h3>
         <form onSubmit={onSignUp}>
-          <label>Username</label>
+          <label>Username: </label>
           <input
             required
             type='text'
             name='username'
             value={username}
-            placeholder='Enter username'
+            placeholder='enter username'
             onChange={handleChange}
           />
-          <label>Email address</label>
+          <label>Email address: </label>
           <input
             required
             type='email'
             name='email'
             value={email}
-            placeholder='Enter email'
+            placeholder='enter email'
             onChange={handleChange}
           />
-          <label>Password</label>
+          <label>Password: </label>
           <input
             required
             type='password'
             name='password'
             value={password}
-            placeholder='Password'
+            placeholder='password'
             onChange={handleChange}
           />
-          <label>Password Confirmation</label>
+          <label>Password Confirmation: </label>
           <input
             required
             name='passwordConfirmation'
             value={passwordConfirmation}
             type='password'
-            placeholder='Confirm Password'
+            placeholder='confirm Password'
             onChange={handleChange}
           />
           {renderError()}

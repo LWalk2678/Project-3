@@ -1,8 +1,10 @@
 /* Sign Up Button */
 button {
   cursor: pointer;
+  height: 30px;
   font-size: 16px;
-  color: #ddffd9;
+  font-family: 'Rosario';
+  color: white;
   border-radius: 8px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
@@ -11,14 +13,15 @@ button {
 .form-container {
   background-color: #ddffd9;
   align-self: center;
-  padding: 1em;
+  padding: 30px;
   width: 50%;
   height: 80%;
   margin: 4em auto;
-  border: 2px solid #b0bec5;
-  border-radius: 6px;
-  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  /* border: 2px solid #b0bec5; */
+  border-radius: 15px;
+  /* box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); */
   transition: all 2s ease;
+
 }
 
 /* Title 'Sign Up' */
@@ -27,22 +30,29 @@ button {
   text-align: center;
   color: #286c73;
   font-size: 28px;
+  margin: 25px;
 }
 
 .form-container form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
-  width: 80%;
+  margin: 0;
+  width:100%;
+}
+
+.form-container label {
+  width: 30%;
+  align-self: center;
 }
 
 .form-container form input {
-  width: 100%;
+  width: 60%;
   padding: 0.6em 1em;
   margin: 0.5em auto;
   font-size: 1rem;
-  border-radius: 3px;
+  border-radius: 10px;
   border: 2px solid #e0e0e0;
   outline: none;
   transition: all 0.4s ease;
@@ -54,6 +64,7 @@ button {
   margin: 1em auto;
   background: #286c73;
   border: none;
+  margin-top: 25px;
 }
 
 .form-container form button:hover {
