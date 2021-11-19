@@ -21,11 +21,13 @@
 .smoothie-title {
     font-size: 24px;
     padding: 10px;
+    color: var(--kale);
 }
 
 .price {
     font-size: 18px;
     padding: 10px;
+    color: var(--kale);
 }
 
 @media (max-width: 500px) {
