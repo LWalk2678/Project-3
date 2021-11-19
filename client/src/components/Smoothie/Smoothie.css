@@ -6,7 +6,7 @@
     align-items: center;
     margin: 10px;
     transition: 250ms all;
-    border-radius: 20px;
+    border-radius: var(--img-br);
     margin-bottom: 60px;
 }
 
@@ -17,7 +17,7 @@
 
 .smoothie-image {
     width: 240px;
-    border-radius: 20px;
+    border-radius: var(--img-br);
 }
 
 .smoothie-title {
@@ -41,6 +41,6 @@
         width: 180px;
         margin: 15px;
         padding: 10px;
-        border-radius: 20px;
+        border-radius: var(--img-br);
     }
 }

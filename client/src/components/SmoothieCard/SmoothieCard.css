@@ -21,7 +21,7 @@ img.smothie-image {
 
 .smoothie-card-image {
     width: 150px;
-    border-radius: 20px;
+    border-radius: var(--img-br);
 }
 
 .smoothie-card a {
@@ -41,6 +41,6 @@ img.smothie-image {
         width: 180px;
         padding: 10px;
         margin: 4px;
-        border-radius: 20px;
+        border-radius: var(--img-br);
     }
 }
