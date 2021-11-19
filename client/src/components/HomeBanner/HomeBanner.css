@@ -17,18 +17,30 @@ h1.banner-text {
     text-shadow: 0px 2px 10px #000000B2;
 }
 
-button {
+.viewSmoothie-button {
     margin-top: 20px;
     width: 155px;
     height: 35px;
     border-radius: 10px;
     border-style: none;
-    background-color: #fff494;
+    background-color: var(--banana);
     color: #FF6480;
     font-size: 18px;
     font-family: 'Rosario', sans-serif;
-    box-shadow: 0px 2px 10px black;
+    box-shadow: 0px 2px 10px rgb(168, 168, 168);
 }
+
+.viewSmoothie-button:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+.viewSmoothie-button:active {
+  background-color: #ddffd9;
+  box-shadow: 0 2px rgb(199, 199, 199);
+  color: var(--kale);
+  transform: translateY(1px);
+}
+
 
 .home-banner a {
     color: #ff6480;

@@ -1,3 +1,5 @@
+
+
 .smoothie {
     display: flex;
     flex-direction: column;
@@ -14,18 +16,20 @@
 }
 
 .smoothie-image {
-    width: 300px;
+    width: 240px;
     border-radius: 20px;
 }
 
 .smoothie-title {
     font-size: 24px;
     padding: 10px;
+    color: var(--kale);
 }
 
 .price {
     font-size: 18px;
     padding: 10px;
+    color: var(--kale);
 }
 
 @media (max-width: 500px) {

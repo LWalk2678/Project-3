@@ -2,20 +2,25 @@
 
 :root {
   --grapefruit: #ff6480;
-  --mint:       #eaffe8;
-  --banana:     #fff494;
-  --kale:       #286c73;
+  --mint: #eaffe8;
+  --banana: #fff494;
+  --kale: #286c73;
 }
 
 /* App ---------------------------------------------------------------------- */
 
 body {
   background-color: #ffffff;
-  font-family: 'Rosario', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Rosario", "Helvetica", "Arial", sans-serif;
   color: #333333;
   margin: 0px;
 }
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   margin: 0;
 }
 hr {
@@ -35,4 +40,19 @@ a {
 main {
   padding: 0px;
   background-color: white;
+}
+
+input {
+  font-family: "Rosario", sans-serif;
+  font-size: 16px;
+  width: 275px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  font-family: "Rosario", sans-serif;
+  font-size: 16px;
+  width: 275px;
+  vertical-align: top;
+  margin-bottom: 10px;
 }

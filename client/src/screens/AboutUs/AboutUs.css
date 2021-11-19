@@ -16,15 +16,14 @@
 }
 .team-one {
     display: flex;
-    padding-right: 20px;
+    padding: 20px;
     background-color: #EAFFE8;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 .team-two {
     display: flex;
     justify-content: right;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 .title-info {
     display: flex;
@@ -46,6 +45,7 @@
     text-align: center;
     font-family: 'shrikhand',cursive;
     font-size: 50px;
+    margin: 15px;
 }
 @media screen and (max-width: 470px) {
     /* mobile overrides for screen widths 0–740px */
