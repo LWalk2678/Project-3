@@ -1,12 +1,15 @@
 # Sunshine Smoothies
 An awesome E-commerce app for a smoothie shop called Sunshine Smoothies.
 
+Deployed front-end: https://sunshine-smoothies.netlify.app/
+Deployed back-end: https://sunshine-smoothies.herokuapp.com/api
+
 ## Owlbear Cubs
-- Clint Gunter
-- Lance Walker
-- Julia Dwyer
-- Jeff Bailey
-- Terra Claycamp
+- Jeff Bailey ([LinkedIn](https://www.linkedin.com/in/jeffrey-bailey/), [GitHub](https://github.com/THeDonDotta))
+- Terra Claycamp ([LinkedIn](https://www.linkedin.com/in/terraclaycamp/), [GitHub](https://github.com/invaderZimm77))
+- Julia Dwyer ([LinkedIn](https://www.linkedin.com/in/julia-dwyer-software-engineer/), [GitHub](https://github.com/gooliajulia))
+- Clint Gunter ([LinkedIn](https://www.linkedin.com/in/futureclint/), [GitHub](https://github.com/futureclint))
+- Lance Walker ([LinkedIn](https://www.linkedin.com/in/lancewalkerco/), [GitHub](https://github.com/LWalk2678))
 
 ## Project Description
 Sunshine Smoothies is an e-commerce application that lets users shop for smoothies, create their own smoothie, and edit smoothies. Smoothies are stored in a database. Users can see the smoothies they create as well as the smoothies created by others. The store also has a default selection of smoothies. If a user is signed in they’ll have the ability to create or edit smoothies.
@@ -75,8 +78,8 @@ Day | Deliverables | Status
 Thursday 11/11  | Project idea approval | Complete
 Friday 11/12    | Wireframe, component hierarchy, readme | Complete
 Monday 11/15    | Build out back-end  | Complete
-Tuesday 11/16   | Build out front-end |
-Wednesday 11/17 | Fix front-end issues, start on CSS |
-Thursday 11/18  | CSS |
-Friday 11/19    | Finish CSS, PMVP |
+Tuesday 11/16   | Build out front-end | Complete
+Wednesday 11/17 | Fix front-end issues, start on CSS | Complete
+Thursday 11/18  | CSS | Complete
+Friday 11/19    | Finish CSS, PMVP | Complete
 Monday 11/22    | Presentation |
