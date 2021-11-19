@@ -40,6 +40,7 @@ const SmoothieDetail = (props) => {
           <div className='price'>{`$${smoothie.price}`}</div>
           <div className='description'>{smoothie.description}</div>
           <div className='ingredients'>{smoothie.ingredients}</div>
+          {props.user ? 
           <div className='button-container'>
             <Link className='edit-button' to={`/smoothies/${smoothie._id}/edit`}>
               Edit
@@ -49,7 +50,8 @@ const SmoothieDetail = (props) => {
               onClick={() => deleteSmoothie(smoothie._id)}>
               Delete
             </Link>
-          </div>  
+          </div>
+          : null}  
         </div>
         
       </div>
