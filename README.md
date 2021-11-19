@@ -1,8 +1,8 @@
 # Sunshine Smoothies
 An awesome E-commerce app for a smoothie shop called Sunshine Smoothies.
 
-Deployed front-end: https://sunshine-smoothies.netlify.app/
-Deployed back-end: https://sunshine-smoothies.herokuapp.com/api
+- Deployed front-end: https://sunshine-smoothies.netlify.app/
+- Deployed back-end: https://sunshine-smoothies.herokuapp.com/api
 
 ## Owlbear Cubs
 - Jeff Bailey ([LinkedIn](https://www.linkedin.com/in/jeffrey-bailey/), [GitHub](https://github.com/THeDonDotta))
