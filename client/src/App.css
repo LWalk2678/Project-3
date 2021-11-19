@@ -5,6 +5,7 @@
   --mint: #eaffe8;
   --banana: #fff494;
   --kale: #286c73;
+  --img-br: 30px; /* image border radius */
 }
 
 /* App ---------------------------------------------------------------------- */
@@ -56,4 +57,7 @@ textarea {
   width: 275px;
   vertical-align: top;
   margin-bottom: 10px;
+}
+img {
+  border-radius: var(--img-br); /* default image border radius */
 }
