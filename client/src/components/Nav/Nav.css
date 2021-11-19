@@ -1,9 +1,12 @@
-/* Main Nav Elements */
+/* Main Nav Elements -------------------------------------------------------- */
+
+/* NOTE: When no welcome element exists, space-between puts the two children
+flush with the start and end. When the welcome element exists, it is set to
+flex-grow: 2 below in order to expand to fill the gap.  */
 nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 20px;
   background-color: var(--grapefruit);
   color: var(--banana);
 }
@@ -12,7 +15,11 @@ a {
   text-decoration: none;
 }
 
-/* Logo Section */
+/* Logo Section ------------------------------------------------------------- */
+
+.link-logo {
+  background: darkslateblue; /* TEMP */
+}
 .link-logo a {
   display: block;
   min-width: 250px;
@@ -25,18 +32,28 @@ a {
   transform: scale(1.05);
 }
 
-/* User Welcome Section */
+/* User Welcome Section ----------------------------------------------------- */
+
+.link-welcome {
+  flex-grow: 2; /* expand to fill remaining space */
+  background: darkcyan; /* TEMP */
+}
 .link-welcome span {
   display: block;
   font-style: italic;
 }
 
-/* Page Links Section */
+/* Page Links Section ------------------------------------------------------- */
+
+.link-pages {
+  background: darkorchid; /* TEMP */
+}
 .link-pages {
   display: flex;
-  margin-right: 5px;
   font-size: 18px;
 }
+
+/* Mobile Layout ------------------------------------------------------------ */
 
 @media (max-width: 500px) {
 
