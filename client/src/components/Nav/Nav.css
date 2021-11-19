@@ -9,6 +9,7 @@ nav {
   justify-content: space-between;
   background-color: var(--grapefruit);
   color: var(--banana);
+  border-top: 5px solid greenyellow; /* TEMP */
 }
 a, span {
   color: var(--banana);
@@ -54,6 +55,9 @@ a, span {
 /* Page Links Section ------------------------------------------------------- */
 
 .link-pages {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end; /* align right */
   background: darkorchid; /* TEMP */
 }
 .link-pages a {
@@ -61,6 +65,7 @@ a, span {
   margin-right: 20px;
   font-size: 16px;
   letter-spacing: 0.5px;
+  white-space: nowrap;
   transition: transform 0.1s ease-out;
 }
 .link-pages a:hover {
@@ -72,6 +77,34 @@ a, span {
 
 /* Mobile Layout ------------------------------------------------------------ */
 
-@media (max-width: 500px) {
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-wrap: wrap; /* start wrapping, if needed */
+    border-top: 5px solid orangered; /* TEMP */
+  }
+  .link-pages {
+    flex-grow: 2;
+    justify-content: space-evenly; /* for medium widths, spread out evenly */
+  }
+}
 
+@media screen and (max-width: 480px) {
+  nav {
+    border-top: 5px solid cyan;
+  }
+  .link-logo {
+    flex-grow: 2;
+  }
+  .link-welcome {
+    text-align: center;
+  }
+  .link-pages {
+    justify-content: flex-start; /* for overflow widths, use default spacing */
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* hide scrollbar on IE/Edge */
+    scrollbar-width: none; /* hide scrollbar on Firefox */
+  }
+  .link-pages::-webkit-scrollbar {
+    display: none; /* hide scrollbar on Chrome/Safari */
+  }
 }
