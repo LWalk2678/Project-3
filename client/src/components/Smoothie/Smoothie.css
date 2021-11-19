@@ -1,3 +1,5 @@
+
+
 .smoothie {
     display: flex;
     flex-direction: column;
@@ -14,7 +16,7 @@
 }
 
 .smoothie-image {
-    width: 300px;
+    width: 240px;
     border-radius: 20px;
 }
 
