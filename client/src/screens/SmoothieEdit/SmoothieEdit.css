@@ -1,0 +1,41 @@
+.edit-title {
+  font-family: "Shrikhand", cursive;
+  font-size: 26px;
+  color: #286c73;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.edit-smoothie-image {
+  width: 250px;
+  display: block;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.smoothie-edit {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.edit-form {
+  width: 600px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 200px;
+}
+
+.save-button {
+  font-size: 20px;
+  text-align: center;
+  width: 100px;
+  margin-top: 40px;
+  background-color: #286c73;
+  color: #ddffd9;
+  border: none;
+  box-shadow: 2px 2px 10px 2px #cecece;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 10px;
+}
