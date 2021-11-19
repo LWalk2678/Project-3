@@ -1,7 +1,7 @@
 /* Sign Up Button */
 button {
   cursor: pointer;
-  height: 35px;
+  height: max-content;
   font-size: 16px;
   font-family: 'Rosario';
   color: white;

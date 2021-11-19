@@ -44,6 +44,14 @@ form {
   border-radius: 10px;
 }
 
+.create-form input {
+  margin-left:10px;
+}
+
+.create-form textarea {
+  margin-left: 10px;
+}
+
 .create-button:hover {
   transform: scale(1.02);
   opacity: 0.9;
@@ -55,10 +63,58 @@ form {
   transform: translateY(1px);
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1075px) {
   .blender {
-    width: 175px;
-    height: 233px;
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .blender {
+    display: none;
+  }
+
+  form.create-form {
+    margin: 40px;
+  }
+
+  div.create-container {
+    width: 80vw;
+    margin: 0;
+  }
+
+  .create-form input {
+    width: 40vw;
+  }
+
+  .create-form textarea {
+    width: 40vw;
+  }
+
+  .create-form label {
+    font-size: 15px;
+  }
+
+  .create-form input {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  h1.create-title {
+    width: 90vw;
+    margin: 20px auto;
+  }
+
+  div.create-container {
+    margin: 15px auto;
+  }
+
+  form.create-form {
+    align-items: flex-end;
+    margin: 0;
+    width: max-content;
   }
 }
 
