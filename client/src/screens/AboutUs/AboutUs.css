@@ -1,7 +1,7 @@
 .aboutUs-image-left {
     height: 200px;
     width: 200px;
-    border-radius: 60px;
+    border-radius: var(--img-br);
     padding-bottom: 20px;
     padding-right: 10px;
     padding-left: 20px;
@@ -71,6 +71,4 @@
 }
 .titleTwo {
     justify-content: left;
-}
-
 }
