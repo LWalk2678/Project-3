@@ -9,9 +9,8 @@ nav {
   justify-content: space-between;
   background-color: var(--grapefruit);
   color: var(--banana);
-  border-top: 5px solid greenyellow; /* TEMP */
 }
-a, span {
+nav a {
   color: var(--banana);
   text-decoration: none;
 }
@@ -19,13 +18,12 @@ a, span {
   display: flex;
   flex-flow: row nowrap;
   align-items: center; /* vertical centering */
-  padding: 15px 20px 10px 20px; /* standard padding */
 }
 
 /* Logo Section ------------------------------------------------------------- */
 
 .link-logo {
-  background: darkslateblue; /* TEMP */
+  margin: 15px;
 }
 .link-logo h1 {
   position: relative;
@@ -44,12 +42,13 @@ a, span {
 
 .link-welcome {
   flex-grow: 2; /* expand to fill remaining space */
-  background: darkcyan; /* TEMP */
 }
 .link-welcome span {
   display: block;
   font-style: italic;
   letter-spacing: 0.5px;
+  margin: 0 15px;
+  color: white;
 }
 
 /* Page Links Section ------------------------------------------------------- */
@@ -58,11 +57,10 @@ a, span {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end; /* align right */
-  background: darkorchid; /* TEMP */
 }
 .link-pages a {
   display: block;
-  margin-right: 20px;
+  margin: 15px 10px;
   font-size: 16px;
   letter-spacing: 0.5px;
   white-space: nowrap;
@@ -71,8 +69,11 @@ a, span {
 .link-pages a:hover {
   transform: scale(1.05);
 }
+.link-pages a:first-child {
+  margin-left: 15px; /* first element needs extra margin */
+}
 .link-pages a:last-child {
-  margin-right: 0; /* last element doesn't need margin */
+  margin-right: 15px; /* last element needs extra margin */
 }
 
 /* Mobile Layout ------------------------------------------------------------ */
@@ -80,17 +81,19 @@ a, span {
 @media screen and (max-width: 1000px) {
   nav {
     flex-wrap: wrap; /* start wrapping, if needed */
-    border-top: 5px solid orangered; /* TEMP */
+    row-gap: -10px;
+  }
+  .nav-section {
   }
   .link-pages {
     flex-grow: 2;
     justify-content: space-evenly; /* for medium widths, spread out evenly */
+
   }
 }
 
 @media screen and (max-width: 480px) {
   nav {
-    border-top: 5px solid cyan;
   }
   .link-logo {
     flex-grow: 2;
