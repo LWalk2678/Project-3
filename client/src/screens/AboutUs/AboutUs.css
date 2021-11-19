@@ -47,7 +47,7 @@
     color: #39797D;
 }
 .about-us-title{
-    color: #39797D; 
+    color: #39797D;
     text-align: center;
     font-family: 'shrikhand',cursive;
     font-size: 50px;
@@ -66,24 +66,26 @@
 
 @media screen and (max-width: 470px) {
 
-.team-one {
-    flex-direction: column;
-    padding-left: 20px;
+    .team-one {
+        flex-direction: column;
+        padding-left: 20px;
 
-}
+    }
 
-.team-two {
-    display: flex;
-    flex-direction: column-reverse;
-}
-.titleTwo {
-    justify-content: left;
-}
-.aboutUs-image-left {
-    display: block;
-    margin: 0 auto;
-}
-.aboutUs-image-right {
-    display: block;
-    margin: 0 auto;
+    .team-two {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .titleTwo {
+        justify-content: left;
+    }
+    .aboutUs-image-left {
+        display: block;
+        margin: 0 auto;
+    }
+    .aboutUs-image-right {
+        display: block;
+        margin: 0 auto;
+    }
+
 }
