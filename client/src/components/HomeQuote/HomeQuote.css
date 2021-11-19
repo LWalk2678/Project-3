@@ -10,17 +10,20 @@
 }
 .home-quote p {
   width: 100%;
-  padding: 30px;
-  font-size: 24px;
+  padding: 50px;
+  font-size: 32px;
   text-align: center;
+  color: var(--grapefruit);
 }
 .home-quote .quote-image {
     padding: 20px 10%;
+    color: var(--grapefruit);
   }
 .home-quote img {
   display: block;
   width: 320px;
   height: auto;
+  margin: 30px;
 }
 
 @media screen and (max-width: 680px) {
@@ -33,6 +36,6 @@
   .home-quote img {
     width: 100%;
     max-width: 320px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
   }
 }

@@ -9,7 +9,7 @@
     height: 300px;
 }
 
-h1.banner-text {
+.home-banner h1 {
     color: white;
     text-align: center;
     font-family: 'Shrikhand', cursive;
@@ -41,7 +41,20 @@ h1.banner-text {
   transform: translateY(1px);
 }
 
-
 .home-banner a {
     color: #ff6480;
+}
+
+/* Mobile Layout ------------------------------------------------------------ */
+
+@media screen and (max-width: 560px) {
+  .home-banner h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .home-banner h1 {
+      font-size: 32px;
+    }
 }
