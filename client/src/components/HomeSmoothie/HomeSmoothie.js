@@ -32,7 +32,7 @@ const HomeSmoothie = () => {
                 <div className='quote-button-container' >
                     <h3>"It's peanut butter, jelly, and your entire childhood in one smoothie!</h3>
                     {smoothies ? 
-                    <button><Link className='link' to={`smoothies/${smoothies[1]._id}`}>View Smoothie</Link></button>
+                    <button className='viewSmoothie-button'><Link className='link' to={`smoothies/${smoothies[1]._id}`}>View Smoothie</Link></button>
                     :
                     null }
 
