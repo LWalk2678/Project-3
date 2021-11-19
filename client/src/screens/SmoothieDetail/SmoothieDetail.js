@@ -28,26 +28,30 @@ const SmoothieDetail = (props) => {
   return (
     <Layout user={props.user}>
       <div className="smoothie-detail">
-        <img 
-          className="smoothie-detail-image"
-          src={smoothie.imageURL} 
-          alt={smoothie.title} 
-        />
+        <div>
+          <img
+            className="smoothie-detail-image"
+            src={smoothie.imageURL} 
+            alt={smoothie.title} 
+          />
+        </div>
         <div className='detail'>
           <div className='title'>{smoothie.title}</div>
           <div className='price'>{`$${smoothie.price}`}</div>
           <div className='description'>{smoothie.description}</div>
           <div className='ingredients'>{smoothie.ingredients}</div>
+          {props.user ? 
           <div className='button-container'>
             <Link className='edit-button' to={`/smoothies/${smoothie._id}/edit`}>
               Edit
             </Link>
-            <button 
+            <Link to="/smoothies"
               className='delete-button'
               onClick={() => deleteSmoothie(smoothie._id)}>
               Delete
-            </button>
-          </div>  
+            </Link>
+          </div>
+          : null}  
         </div>
         
       </div>

@@ -14,10 +14,14 @@
     opacity: .9;
 }
 
+img.smothie-image {
+    width: 50px;
+}
+
 
 .smoothie-card-image {
     width: 150px;
-    border-radius: 20px;
+    border-radius: var(--img-br);
 }
 
 .smoothie-card a {
@@ -37,6 +41,6 @@
         width: 180px;
         padding: 10px;
         margin: 4px;
-        border-radius: 20px;
+        border-radius: var(--img-br);
     }
 }

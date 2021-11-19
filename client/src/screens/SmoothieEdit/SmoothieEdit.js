@@ -49,67 +49,77 @@ const SmoothieEdit = (props) => {
 
   return (
     <Layout user={props.user}>
-      <div className='smoothie-edit'>
-        <div className='image-container'>
-          <img
-            className='edit-smoothie-image'
-            src={`../${smoothie.imageURL}`}
-            alt={smoothie.title}
-          />
-          <form onSubmit={handleSubmit}>
-            <input
-              className='edit-input-image-link'
-              placeholder='Image Link'
-              value={smoothie.imageURL}
-              name='imageURL'
-              required
-              onChange={handleChange}
+      <div>
+        <h2 className='edit-title'>Let's make it better!</h2>
+        <div className='smoothie-edit'>
+          <div className='image-container'>
+              <img
+              className='edit-smoothie-image'
+              src={`../${smoothie.imageURL}`}
+              alt={smoothie.title}
             />
+          </div>
+          <form className='edit-form' onSubmit={handleSubmit}>
+            <label> Smoothie Title:
+              <input
+                className='input-name'
+                placeholder='Smoothie title'
+                value={smoothie.title}
+                name='title'
+                required
+                autoFocus
+                onChange={handleChange}
+              />
+            </label>
+            <label> Price:
+              <input
+                className='input-price'
+                placeholder='Price'
+                value={smoothie.price}
+                name='price'
+                required
+                onChange={handleChange}
+              />
+            </label>  
+            <label> Description:
+              <textarea
+                className='textarea-description'
+                rows={5}
+                cols={78}
+                placeholder='Description'
+                value={smoothie.description}
+                name='description'
+                required
+                onChange={handleChange}
+              />
+            </label>
+            <label> Ingredients:
+              <textarea
+                className='textarea-ingredients'
+                rows={5}
+                cols={78}
+                placeholder='Ingredients - separate with commas'
+                value={smoothie.ingredients}
+                name='ingredients'
+                required
+                onChange={handleChange}
+              />
+            </label>
+            <label> URL:
+              <input
+                className='edit-input-image-link'
+                placeholder='Image Link'
+                value={smoothie.imageURL}
+                name='imageURL'
+                required
+                onChange={handleChange}
+              />
+            </label>
+            <button type='submit' className='save-button'>
+              Update
+            </button>
           </form>
         </div>
-        <form className='edit-form' onSubmit={handleSubmit}>
-          <input
-            className='input-name'
-            placeholder='Smoothie title'
-            value={smoothie.title}
-            name='title'
-            required
-            autoFocus
-            onChange={handleChange}
-          />
-          <input
-            className='input-price'
-            placeholder='Price'
-            value={smoothie.price}
-            name='price'
-            required
-            onChange={handleChange}
-          />
-          <textarea
-            className='textarea-description'
-            rows={10}
-            cols={78}
-            placeholder='Description'
-            value={smoothie.description}
-            name='description'
-            required
-            onChange={handleChange}
-          />
-          <textarea
-            className='textarea-ingredients'
-            rows={10}
-            cols={78}
-            placeholder='Ingredients - separate with commas'
-            value={smoothie.ingredients}
-            name='ingredients'
-            required
-            onChange={handleChange}
-          />
-          <button type='submit' className='save-button'>
-            Save
-          </button>
-        </form>
-
       </div>
     </Layout>
 

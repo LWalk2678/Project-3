@@ -8,7 +8,7 @@ const HomeQuote = (props) => {
         <p><em>{props.quote}</em></p>
       </div>
       { props.img ?
-        <div className="image">
+        <div className="quote-image">
           <img src={props.img} alt='quote'/>
         </div>
       : '' }

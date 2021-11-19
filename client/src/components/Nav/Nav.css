@@ -1,67 +1,113 @@
+/* Main Nav Elements -------------------------------------------------------- */
+
+/* NOTE: When no welcome element exists, space-between puts the two children
+flush with the start and end. When the welcome element exists, it is set to
+flex-grow: 2 below in order to expand to fill the gap.  */
 nav {
-  background: #ff6480;
-  width: 100%;
-  box-shadow: 1px 1px 1px 0.3px #cecece;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 20px;
-  margin-left: -2px;
-  margin-right: -2px;
-  margin-top: -2px;
-  color: #fff494;
+  background-color: var(--grapefruit);
+  color: var(--banana);
 }
-
-.logo {
-  font-family: "Sacramento", cursive;
-  text-align: left;
-  font-size: 34px;
-  flex: 1;
-  min-width: 250px;
+nav a {
+  color: var(--banana);
+  text-decoration: none;
 }
-
-.logo:hover {
-  transform: scale(1.014);
-}
-
-.link-pages {
-  flex: 2;
-  max-width: 50vw;
-  align-items: center;
-  font-size: 18px;
+.nav-section {
   display: flex;
-  margin-right: 5px;
+  flex-flow: row nowrap;
+  align-items: center; /* vertical centering */
 }
 
-.link {
-  flex: 1;
+/* Logo Section ------------------------------------------------------------- */
+
+.link-logo {
+  margin: 15px;
 }
+.link-logo h1 {
+  position: relative;
+  font-family: "Sacramento", cursive;
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: normal;
+  text-align: left;
+  transition: transform 0.1s ease-out;
+}
+.link-logo h1:hover {
+  transform: scale(1.05);
+}
+
+/* User Welcome Section ----------------------------------------------------- */
 
 .link-welcome {
+  flex-grow: 2; /* expand to fill remaining space */
+}
+.link-welcome span {
+  display: block;
   font-style: italic;
+  letter-spacing: 0.5px;
+  margin: 0 15px;
+  color: white;
 }
 
-a {
-  text-decoration: none;
-  color: #fff494;
+/* Page Links Section ------------------------------------------------------- */
+
+.link-pages {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end; /* align right */
+}
+.link-pages a {
+  display: block;
+  margin: 15px 10px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  transition: transform 0.1s ease-out;
+}
+.link-pages a:hover {
+  transform: scale(1.05);
+}
+.link-pages a:first-child {
+  margin-left: 15px; /* first element needs extra margin */
+}
+.link-pages a:last-child {
+  margin-right: 15px; /* last element needs extra margin */
 }
 
-@media (max-width: 500px) {
+/* Mobile Layout ------------------------------------------------------------ */
+
+@media screen and (max-width: 1000px) {
   nav {
-    width: 98%;
+    flex-wrap: wrap; /* start wrapping, if needed */
+    row-gap: -10px;
   }
-  .logo {
-    min-width: 150px;
-    max-width: 50%;
+  .nav-section {
   }
   .link-pages {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 50vw;
+    flex-grow: 2;
+    justify-content: space-evenly; /* for medium widths, spread out evenly */
+
   }
-  .link {
-    padding: 3px;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+  }
+  .link-logo {
+    flex-grow: 2;
+  }
+  .link-welcome {
+    text-align: center;
+  }
+  .link-pages {
+    justify-content: flex-start; /* for overflow widths, use default spacing */
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* hide scrollbar on IE/Edge */
+    scrollbar-width: none; /* hide scrollbar on Firefox */
+  }
+  .link-pages::-webkit-scrollbar {
+    display: none; /* hide scrollbar on Chrome/Safari */
   }
 }

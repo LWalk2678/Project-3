@@ -39,64 +39,70 @@ const SmoothieCreate = (props) => {
   }
   return (
     <Layout user={props.user}>
-      <div className='create-container'>
-      <img className="blender" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTZiobP8V41RlokB4oHGzlOKye7_W78zQb-dRryis6uSe2YOBI" alt='empty blender'/>
-      <form className="create-form" onSubmit={handleSubmit}>
-        <h1>Create Your Own Smoothie!</h1>
-        <label>Smoothie Title:</label>
-        <input
-          className="input-title"
-          placeholder="Name your Smoothie"
-          value={smoothie.title}
-          name="title"
-          required
-          autoFocus
-          onChange={handleChange}
-        />
-        <label>Price:</label>
-        <input
-          className="input-price"
-          placeholder="Price"
-          value={smoothie.price}
-          name="price"
-          required
-          onChange={handleChange}
-        />
-        <label>Description:</label>
-        <textarea
-          className="textarea-description"
-          rows={4}
-          placeholder="Description"
-          value={smoothie.description}
-          name="description"
-          required
-          onChange={handleChange}
-        />
-        <label>Ingredients:</label>
-        <textarea
-          className="textarea-ingredients"
-          rows={4}
-          placeholder="Type each ingredient separated by a comma."
-          value={smoothie.ingredients}
-          name="ingredients"
-          required
-          onChange={handleChange}
-        />
-        <label>URL:</label>
-        <input
-          className="input-image-link"
-          placeholder="Paste your image link here"
-          value={smoothie.imageURL}
-          name="imageURL"
-          required
-          onChange={handleChange}
-        />
-        <button type="submit" className="submit-button">
-          Submit
-        </button>
-      </form>
+      <div>
+        <h1 className='create-title'>Create Your Own Smoothie!</h1>
+        <div className='create-container'>
+        <img className="blender" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTZiobP8V41RlokB4oHGzlOKye7_W78zQb-dRryis6uSe2YOBI" alt='empty blender'/>
+        <form className="create-form" onSubmit={handleSubmit}>
+          <label>Smoothie Title:
+            <input
+              className="input-title"
+              placeholder="Name your Smoothie"
+              value={smoothie.title}
+              name="title"
+              required
+              autoFocus
+              onChange={handleChange}
+            />
+          </label>
+          <label>Price:
+            <input
+              className="input-price"
+              placeholder="Price"
+              value={smoothie.price}
+              name="price"
+              required
+              onChange={handleChange}
+            />
+          </label>
+          <label>Description:
+            <textarea
+              className="textarea-description"
+              rows={4}
+              placeholder="Description"
+              value={smoothie.description}
+              name="description"
+              required
+              onChange={handleChange}
+            />
+          </label>
+          <label>Ingredients:
+            <textarea
+              className="textarea-ingredients"
+              rows={4}
+              placeholder="Type each ingredient separated by a comma."
+              value={smoothie.ingredients}
+              name="ingredients"
+              required
+              onChange={handleChange}
+            />
+          </label>
+          <label>URL:
+            <input
+              className="input-image-link"
+              placeholder="Paste your image link here"
+              value={smoothie.imageURL}
+              name="imageURL"
+              required
+              onChange={handleChange}
+            />
+          </label>
+          <button type="submit" className="create-button">
+            Submit
+          </button>
+        </form>
+        </div>
       </div>
-      
     </Layout>
   );
 };

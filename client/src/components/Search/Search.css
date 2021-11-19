@@ -1,5 +1,7 @@
 .search-form {
-  padding-top: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
 }
 
 .search-input {
@@ -9,7 +11,7 @@
   letter-spacing: 0.1px;
   padding: 10px 40px 10px 20px;
   border: 1px solid #ddd;
-  margin: 40px;
+  margin: 20px;
 }
 
 @media (max-width: 600px) {

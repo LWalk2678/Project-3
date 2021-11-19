@@ -29,6 +29,7 @@ const Smoothies = (props) => {
 
   return (
     <Layout user={props.user}>
+      <div className='smoothies-title'>Our Smoothies</div>
       <Search onSubmit={handleSubmit} handleSearch={handleSearch} />
       <div className='smoothies'>
         {searchResult.map((smoothie, index) => {
