@@ -10,9 +10,15 @@ nav {
   background-color: var(--grapefruit);
   color: var(--banana);
 }
-a {
+a, span {
   color: var(--banana);
   text-decoration: none;
+}
+.nav-section {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center; /* vertical centering */
+  padding: 15px 20px 10px 20px; /* standard padding */
 }
 
 /* Logo Section ------------------------------------------------------------- */
@@ -20,15 +26,16 @@ a {
 .link-logo {
   background: darkslateblue; /* TEMP */
 }
-.link-logo a {
-  display: block;
-  min-width: 250px;
+.link-logo h1 {
+  position: relative;
   font-family: "Sacramento", cursive;
   font-size: 34px;
+  line-height: 34px;
+  font-weight: normal;
   text-align: left;
   transition: transform 0.1s ease-out;
 }
-.link-logo a:hover {
+.link-logo h1:hover {
   transform: scale(1.05);
 }
 
@@ -41,6 +48,7 @@ a {
 .link-welcome span {
   display: block;
   font-style: italic;
+  letter-spacing: 0.5px;
 }
 
 /* Page Links Section ------------------------------------------------------- */
@@ -48,9 +56,18 @@ a {
 .link-pages {
   background: darkorchid; /* TEMP */
 }
-.link-pages {
-  display: flex;
-  font-size: 18px;
+.link-pages a {
+  display: block;
+  margin-right: 20px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: transform 0.1s ease-out;
+}
+.link-pages a:hover {
+  transform: scale(1.05);
+}
+.link-pages a:last-child {
+  margin-right: 0; /* last element doesn't need margin */
 }
 
 /* Mobile Layout ------------------------------------------------------------ */

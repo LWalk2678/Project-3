@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const authenticationedOptions = (
     <>
-        <NavLink className="link" to ="/add-smoothie">Create a Smoothie!</NavLink>
+        <NavLink className="link" to ="/add-smoothie">Create a Smoothie</NavLink>
         <NavLink className="link" to ="/sign-out">Sign Out</NavLink>
     </>
 
@@ -18,23 +18,23 @@ const unauthenticatedOptions = (
 
 const alwaysOptions = (
     <>
-    <NavLink className="link" to ="/smoothies">Smoothies</NavLink>
-    <NavLink className="link" to ="/aboutUs">
-        Meet the Team
-    </NavLink>
+        <NavLink className="link" to ="/smoothies">Smoothies</NavLink>
+        <NavLink className="link" to ="/aboutUs">Meet the Team</NavLink>
     </>
 )
 
 const Nav =({ user }) => {
     return(
         <nav>
-            <div className="link-logo">
-                <NavLink to ="/">Sunshine Smoothies</NavLink>
+            <div className="nav-section link-logo">
+                <NavLink to ="/">
+                    <h1>Sunshine Smoothies</h1>
+                </NavLink>
             </div>
-            {user && <div className="link-welcome">
-                <span>Welcome, {user.username}</span>
+            {user && <div className="nav-section link-welcome">
+                <span>Welcome, {user.username}!</span>
             </div>}
-            <div className="link-pages">
+            <div className="nav-section link-pages">
                 {alwaysOptions}
                 {user ? authenticationedOptions : unauthenticatedOptions}
             </div>
