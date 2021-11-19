@@ -1,9 +1,7 @@
 .search-form {
-  padding-top: 50px;
   width: 100vw;
   display: flex;
   align-items: center;
-  margin-bottom: 35px;
 }
 
 .search-input {

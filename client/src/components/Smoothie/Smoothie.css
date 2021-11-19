@@ -1,46 +1,44 @@
-
-
 .smoothie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    transition: 250ms all;
-    border-radius: var(--img-br);
-    margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  transition: 250ms all;
+  border-radius: var(--img-br);
+  margin-bottom: 60px;
 }
 
 .smoothie:hover {
-    transform: scale(1.02);
-    opacity: .9;
+  transform: scale(1.02);
+  opacity: 0.9;
 }
 
 .smoothie-image {
-    width: 240px;
-    border-radius: var(--img-br);
+  width: 240px;
+  border-radius: var(--img-br);
 }
 
 .smoothie-title {
-    font-size: 24px;
-    padding: 10px;
-    color: var(--kale);
+  font-size: 24px;
+  padding: 10px;
+  color: var(--kale);
 }
 
 .price {
-    font-size: 18px;
-    padding: 10px;
-    color: var(--kale);
+  font-size: 18px;
+  padding: 10px;
+  color: var(--kale);
 }
 
 @media (max-width: 500px) {
-    .smoothie {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .smoothie-image {
-        width: 180px;
-        margin: 15px;
-        padding: 10px;
-        border-radius: var(--img-br);
-    }
+  .smoothie {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .smoothie-image {
+    width: 180px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: var(--img-br);
+  }
 }
