@@ -10,7 +10,7 @@
 .edit-smoothie-image {
   width: 250px;
   display: block;
-  border-radius: 20px;
+  border-radius: var(--img-br);
   margin-right: 20px;
 }
 
@@ -51,4 +51,3 @@
   color: var(--kale);
   transform: translateY(1px);
 }
-

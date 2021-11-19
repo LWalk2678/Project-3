@@ -23,7 +23,7 @@
 
 .highlight-container img {
     width: 160px;
-    border-radius: 10px;
+    border-radius: var(--img-br);
 }
 
 .home-smoothie-container {

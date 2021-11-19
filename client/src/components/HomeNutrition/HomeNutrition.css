@@ -9,8 +9,7 @@
 .nutrition-images {
     height: 150px;
     width: 200px;
-    border-radius: 20px;
-
+    border-radius: var(--img-br);
 }
 .facts {
     display: flex;
@@ -28,7 +27,7 @@
     padding-bottom: 20px;
     color: #FA6480;
     font-size: 33px;
-    
+
 }
 .home-nutrition {
     background-color: #FDF494;
