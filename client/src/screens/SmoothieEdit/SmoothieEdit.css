@@ -41,8 +41,6 @@
   border-radius: 10px;
 }
 
-<<<<<<< HEAD
-=======
 .save-button:hover {
   transform: scale(1.02);
   opacity: 0.9;
@@ -53,4 +51,4 @@
   color: var(--kale);
   transform: translateY(1px);
 }
->>>>>>> 26e5a0a7429b84a55c9e493d60ee9b9c30093ab3
+
