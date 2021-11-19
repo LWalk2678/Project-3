@@ -1,11 +1,15 @@
+/* Main Nav Elements */
 nav {
-  background: #ff6480;
-  box-shadow: 1px 1px 1px 0.3px #cecece;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 20px;
-  color: #fff494;
+  background-color: var(--grapefruit);
+  color: var(--banana);
+}
+a {
+  color: var(--banana);
+  text-decoration: none;
 }
 
 /* Logo Section */
@@ -21,6 +25,11 @@ nav {
   transform: scale(1.05);
 }
 
+/* User Welcome Section */
+.link-welcome {
+    font-style: italic;
+  }
+
 .link-pages {
   flex: 2;
   max-width: 50vw;
@@ -28,19 +37,6 @@ nav {
   font-size: 18px;
   display: flex;
   margin-right: 5px;
-}
-
-.link {
-  flex: 1;
-}
-
-.link-welcome {
-  font-style: italic;
-}
-
-a {
-  text-decoration: none;
-  color: #fff494;
 }
 
 @media (max-width: 500px) {
