@@ -1,5 +1,14 @@
-.smoothies{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+.smoothies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.smoothies-title {
+  font-family: "Shrikhand", cursive;
+  font-size: 26px;
+  color: #286c73;
+  text-align: center;
+  margin-top: 50px;
 }
