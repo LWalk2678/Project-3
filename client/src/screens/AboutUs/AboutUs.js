@@ -1,6 +1,7 @@
 import './AboutUs.css'
 import { Layout } from "../../components";
 
+
 const Team = (
     <div>
         <div className="team-one">
@@ -52,6 +53,12 @@ const AboutUs = (props) => {
             <div>
                 <h1 className="about-us-title">Meet the Team</h1>
             {Team}
+            </div>
+            <div className="repo" >
+                <h2>Want to learn more about Sunshine Smoothies?</h2> 
+                <a href="https://github.com/invaderZimm77/Project-3">
+                    <img src="https://i.imgur.com/96F1PSj.jpg" className="repo-link" alt="repo link"/>
+                </a>
             </div>
         </Layout>
     )
