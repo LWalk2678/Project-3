@@ -1,8 +1,5 @@
 /* Main Nav Elements -------------------------------------------------------- */
 
-/* NOTE: When no welcome element exists, space-between puts the two children
-flush with the start and end. When the welcome element exists, it is set to
-flex-grow: 2 below in order to expand to fill the gap.  */
 nav {
   display: flex;
   flex-flow: row nowrap;
@@ -83,18 +80,14 @@ nav a {
     flex-wrap: wrap; /* start wrapping, if needed */
     row-gap: -10px;
   }
-  .nav-section {
-  }
+
   .link-pages {
     flex-grow: 2;
     justify-content: space-evenly; /* for medium widths, spread out evenly */
-
   }
 }
 
 @media screen and (max-width: 480px) {
-  nav {
-  }
   .link-logo {
     flex-grow: 2;
   }

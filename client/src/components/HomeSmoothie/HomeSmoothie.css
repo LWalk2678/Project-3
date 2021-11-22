@@ -1,82 +1,79 @@
 .home-smoothie {
-    background-color: var(--mint);
-    height: min-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
+  background-color: var(--mint);
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
 }
 
 .home-smoothie h1 {
-    color: var(--kale);
-    font-family: Shrikhand;
-    margin-bottom: 15px;
-    font-size: 35px;
+  color: var(--kale);
+  font-family: Shrikhand;
+  margin-bottom: 15px;
+  font-size: 35px;
 }
 
 .home-smoothie h3 {
-    font-size: 30px;
-    font-weight: lighter;
-    color: var(--kale);
-    margin-top: 50px;
+  font-size: 30px;
+  font-weight: lighter;
+  color: var(--kale);
+  margin-top: 50px;
 }
 
 .highlight-container img {
-    width: 160px;
-    border-radius: var(--img-br);
+  width: 160px;
+  border-radius: var(--img-br);
 }
 
 .home-smoothie-container {
-    display: flex;
-    width: 80vw;
-    flex-direction: row;
-    /* justify-content: space-around; */
-    column-gap: 100px;
+  display: flex;
+  width: 80vw;
+  flex-direction: row;
+  column-gap: 100px;
 }
 
 button a {
-    color: var(--grapefruit)
+  color: var(--grapefruit);
 }
 
 .quote-button-container {
-    width: 40vw;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .highlight-container h1 {
-    color: var(--grapefruit);
+  color: var(--grapefruit);
 }
 
 @media screen and (max-width: 680px) {
+  .home-smoothie h1 {
+    align-self: center;
+  }
 
-    .home-smoothie h1 {
-        align-self: center;
-    }
+  .home-smoothie-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .home-smoothie-container {
-        display: flex;
-        flex-direction: column; 
-    }
+  .highlight-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .highlight-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .highlight-container img {
+    width: 40vw;
+  }
 
-    .highlight-container img {
-        width: 40vw;
-    }
+  .quote-button-container {
+    display: flex;
+    align-items: center;
+    width: inherit;
+  }
 
-    .quote-button-container {
-        display: flex;
-        align-items: center;
-        width:inherit;
-    }
-
-    .quote-button-container h3 {
-        margin-top: 5px;
-    }
+  .quote-button-container h3 {
+    margin-top: 5px;
+  }
 }
