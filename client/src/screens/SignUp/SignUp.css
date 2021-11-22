@@ -19,9 +19,7 @@ button {
   width:max-content;
   height: 80%;
   margin: 4em auto;
-  /* border: 2px solid #b0bec5; */
   border-radius: 15px;
-  /* box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); */
   transition: all 2s ease;
 }
 
@@ -85,10 +83,6 @@ div.label-input {
     flex-direction: column;
   }
 
-  /* .form-container {
-    margin: auto;
-  } */
-
   .form-container form {
     width: 50vw;
   }
@@ -113,7 +107,6 @@ div.label-input {
     width: 100%;
   }
 }
-
 
 @media screen and (max-width: 400px) {
   .form-container h3 {

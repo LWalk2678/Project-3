@@ -43,6 +43,9 @@
   display: flex;
   justify-content: space-evenly;
 }
+.ingredients {
+  padding-left: 10px;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .edit-button {
   font-size: 22px;
@@ -111,6 +114,7 @@
     padding: 20px;
     padding-bottom: 80px;
   }
+
 }
 
 @media (max-width: 665px) {
