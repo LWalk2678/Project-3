@@ -23,7 +23,6 @@ Sunshine Smoothies is an e-commerce application that lets users shop for smoothi
 <img src="img/wireframe-edit-smoothie.png" width="960" />
 <img src="img/wireframe-sign-in.png" width="960" />
 <img src="img/wireframe-sign-up.png" width="960" />
-<img src="img/wireframe-cart.png" width="960" />
 <img src="img/wireframe-about.png" width="960" />
 
 ## Component Hierarchy

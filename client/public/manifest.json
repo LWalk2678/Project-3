@@ -2,6 +2,10 @@
   "short_name": "Sunshine Smoothies",
   "name": "Create React App Sample",
   "icons": [
+    {
+      "src": "./ss-favicon.ico",
+      "sizes": "40X40" 
+    }
   ],
   "start_url": ".",
   "display": "standalone",
