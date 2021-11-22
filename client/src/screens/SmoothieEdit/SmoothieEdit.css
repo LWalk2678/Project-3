@@ -16,7 +16,7 @@
 
 .smoothie-edit {
   display: flex;
- justify-content: center;
+  justify-content: center;
   /* margin-left: 100px; */
   margin-top: 20px;
   align-items: center;
@@ -53,6 +53,10 @@
   box-shadow: 0 2px rgb(199, 199, 199);
   color: var(--kale);
   transform: translateY(1px);
+}
+
+div.detail {
+  width: 40vw;
 }
 
 @media screen and (max-width: 740px) {
