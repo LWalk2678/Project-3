@@ -39,7 +39,7 @@ const SmoothieDetail = (props) => {
           <div className='title'>{smoothie.title}</div>
           <div className='price'>{`$${smoothie.price}`}</div>
           <div className='description'>{smoothie.description}</div>
-          <div className='ingredients'>{smoothie.ingredients}</div>
+          <div className='ingredients'>Ingredients: {smoothie.ingredients}</div>
           {props.user ? 
           <div className='button-container'>
             <Link className='edit-button' to={`/smoothies/${smoothie._id}/edit`}>
