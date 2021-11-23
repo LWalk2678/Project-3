@@ -15,6 +15,9 @@ An awesome E-commerce app for a smoothie shop called Sunshine Smoothies.
 Sunshine Smoothies is an e-commerce application that lets users shop for smoothies, create their own smoothie, and edit smoothies. Smoothies are stored in a database. Users can see the smoothies they create as well as the smoothies created by others. The store also has a default selection of smoothies. If a user is signed in they’ll have the ability to create or edit smoothies.
 
  - Original GitHub Repo: https://github.com/invaderZimm77/Project-3
+ - Figma Wireframe: https://www.figma.com/file/SEeXZEEKzFOa9RlQRJ0qnC/Smoothie-Shop?node-id=0%3A1
+ - Team planning doc: https://docs.google.com/document/d/1HUl6CEq98sY1VrpcTXG9oLSXU2THs4mkh-4q-fppuiU/edit
+ - Component Hirearchy: 
 
 ## WireFrames
 
